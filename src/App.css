@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+*{
+  padding:0px;
+  margin:0p;
+  box-sizing:border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color:rgb(21, 97, 21);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.form-container{
+  padding-left:10%;
+  padding-right:30%;
+  padding-top:10%;
+  padding-bottom:10%;
+  margin:100px;
+  background-color:white;
+  display:block;
+  display:flex;
+  flex-direction:column;
+  margin-left:30%;
+  margin-right:20%;
+  margin-top:10%;
+  margin-bottom:10%;
+  border-radius:100px;
+}
+input{
+  color:rgb(37, 36, 36);
+  background-color:white;
+  padding:10px 30px;
+  margin:10px;
+  align-items:center;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  border:1px solid yellow;
+  border-radius:10px;
+  width:400px;
+}
+button{
+  color:white;
+  background-color:green;
+  padding:10px;
+  margin:10px;
+  align-items:center;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  border:1px solid yellow;
+  border-radius:10px;
+  width:400px;
+  font-size:20px;
+}
+@media screen and (max-width : 1024px){
+  .form-container{
+    background-color:white;
+    display:block;
+    display:flex;
+    flex-direction:column;
+    
+    margin:100px;
+   
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  input{
+    color:rgb(37, 36, 36);
+    background-color:white;
+    padding:10px;
+    margin:30px;
+    align-items:center;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    border:1px solid yellow;
+    border-radius:10px;
+    width:300px;
   }
-  to {
-    transform: rotate(360deg);
+  button{
+    color:white;
+    background-color:green;
+    padding:10px;
+    margin:30px;
+    align-items:center;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    border:1px solid yellow;
+    border-radius:10px;
+    width:300px;
+    font-size:20px;
   }
 }
